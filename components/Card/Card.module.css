@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0;
+    margin-top: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-family: 'Brush Script MT', cursive;
+    background: rgb(49, 73, 45);
+    background: linear-gradient(0deg, rgba(49, 73, 45, 1) 0%, rgba(114, 84, 0, 0.753) 60%);
+    border: solid 1px rgb(0, 56, 0);
+}
+
+.Picture {
+    width: 100%;
+}
+
+.pipicture {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.contenantDroite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.jeu {
+    font-size: 200%;
+}
+
+.prix {
+    font-size: 150%;
+}
+
+.promo {
+    color: red;
+    font-family: 'Satisfy', cursive;
+    position: absolute;
+    font-size: 600%;
+    margin-top: -130vh;
+    margin-left: 35vw;
+    rotate: 6deg;
+    z-index: 1;
+}
+
+.stock {
+    font-size: 140%;
+}
+
+.desc {
+    text-align: center;
+    font-size: 125%;
+}
+
+@media screen and (min-width:576px) {
+    .Card {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin: 0;
+        margin-top: 15vh;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;
+        font-family: 'Brush Script MT', cursive;
+        background: rgb(49, 73, 45);
+        background: linear-gradient(0deg, rgba(49, 73, 45, 1) 0%, rgba(114, 84, 0, 0.753) 60%);
+    }
+
+    .Picture {
+        width: 40%;
+        border: solid;
+        border-radius: 5%;
+        margin-right: 10%;
+        margin-left: 10%;
+        background: rgb(49, 73, 45);
+        background: linear-gradient(0deg, rgba(49, 73, 45, 0.2049194677871149) 0%, rgba(204, 204, 255, 0.227328431372549) 46%);
+    }
+
+    .pipicture {
+        width: 100%;
+    }
+
+    .contenantDroite {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        margin-right: 5%;
+    }
+
+    .jeu {
+        font-size: 300%;
+    }
+
+    .prix {
+        font-size: 250%;
+    }
+
+    .promo {
+        display: block;
+        color: red;
+        font-size: 800%;
+        margin-top: -40vh;
+        margin-left: 10vw;
+        rotate: 10deg;
+    }
+
+    .stock {
+        font-size: 240%;
+    }
+
+    .desc {
+        text-align: center;
+        font-size: 150%;
+    }
+}
